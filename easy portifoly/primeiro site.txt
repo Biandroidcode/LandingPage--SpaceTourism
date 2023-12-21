@@ -1,6 +1,0 @@
-o que ter no meu site?
--cores em harmonia(marrom,branco,bege,camurça e pode até ter também um pouco de dourado e amarelo);
--um menu ;
--um página de login;
--uma langin page com matketing;
--uma mensagem de boas vindas
