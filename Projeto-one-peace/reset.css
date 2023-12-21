@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #000000;
+    overflow: ;/*O que tiver sobrando ou transbordando do body ele vai "excluir"*/
+}
+
+main::after{
+    content: "";
+    position: fixed;/*Quero que ele seja fixo na tela, vc pode até mexer o mouse mas ele continuará fixo no mesmo lugar*/
+    top: 0;
+    left: 0;
+    height:100vh;
+    width:80vw;
+
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+
+}
+
+main .personagem{
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado{
+    display: block;
+}
+
+main .imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo{
+    position: absolute;
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center; /* alinhar o conteudo verticalmente*/
+    min-height:100vh; /*Vai centralizaZ o elemento no meio da tela*/
+    max-width:380px;
+    z-index: 1;/*O conteúdo vai ficar em cima do after*/
+}
+
+.conteudo .nome-personagem{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;/*Vai dar um espaçamento, no caso o bottom vai dizer que é para dar um espaçamento em baixo */
+}
+
+.conteudo .descricao{
+    color: #ffffff;
+    font-family: "Rubik";
+    line-height: 24px;/*As linhas vão ficar mais separadas*/
+}
+
+.conteudo .Logo{
+    background-image: url(../Projeto-one-peace/one-piece-logo.png);
+    background-size:cover;/*Nessa propriedade vc quer que ele cubra a altura e largura que vc colocou*/
+    height:100px;/*Quando for colocar uma imagem vc precisa colocar a altura e a largura*/
+    width:230px;
+    margin-bottom: 35px;
+}
+
+.botoes{
+    position: fixed;
+    top: 0; /*Para colocar o menu do lado*/
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    width: 180px;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    gap: 10px;
+
+}
+
+.botoes .botao{
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius:50%;
+}
+
+.botoes .botao img{
+    border-radius: 50%;/*Vai deixar o elemento arrendodado*/
+}
+
+.botoes .botao.selecionado{
+    transform:scale(1.2);
+    box-shadow:0 0 10px #D9D9D9;
+}
+
+@media (max-width: 769px){
+    main::after{
+        bachground: linear-gradient(0deg, #000 20%, rgba(0,0,0,0.0) 65%) no-repeat;
+        widht:100vw
+    }
+}
+
+main .personagem .imagem{
+    height: 85%;
+}
+
+.conteudo{
+    justify-content: flex-end;
+    left: 0;
+    top: -20%;
+    max-width: 100vw;
+    padding: 30px;
+
+}
+
+.conteudo .nome-personagem{
+    font-size: 36px;
+}
+
+.conteudo .descricao{
+    max-width: 500px;
+}
+
+.botoes{
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    padding: 30px;
+}
+
+.botoes .botao img{
+    max-width: 60px;
+}
+
+@madia (max-width: 769px){
+    
+}

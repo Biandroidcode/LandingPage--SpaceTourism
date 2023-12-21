@@ -1,0 +1,53 @@
+ Liguagem de python
+
+https://python.org.br/.
+
+fundação bradesco 
+operadores:
+operador de atribuição 
+operadores aritméticos
+operadores relacionais
+operadores logicos
+
+Caracteristicas da linguagem python
+Linguagem orientadas a objetos 
+linguagem de alto nivel
+tipagem dinamica e forte 
+fácil aprendizagem
+comunidade ativa
+muitas bibliotecas/recursos
+linguagem interpretada
+
+O que é uma lingagem interpretada?
+é um alinguagerm de programação onde o código fonte é executado por um peograma de computador chamado interpretador que ,em seguida é executado pelo sistema operacional ou processador
+
+
+operadores logicos and/or/not
+and=se todos forem verdadeiros
+or=todos forem falsos
+notse verdadeiro inverte para falsa
+
+Int (inteiro)	Exibe um valor inteiro.
+%f	Float ou double	Exibe um valor decimal.
+%ld	Long Int	Exibe um número inteiro longo.
+%e ou %E	Float e double	Exibe um número exponencial (número científico).
+%c	Char (caractere)	Exibe um caractere.
+%o	Int	Exibe um número inteiro em formato octal.
+%x ou %X	Int	Exibe um número inteiro no formato hexadecimal.
+%s	Char	Exibe uma cadeia de caracteres (string).
+%r	Boolean	Exibe true ou false (verdadeiro ou falso).
+
+\n	Insere uma quebra de linha.
+\t	Insere tabulação horizontal.
+\v	Insere tabulação vertical.
+\r	Equivalente ao efeito da tecla Enter.
+\’	Aspas simples.
+\”	Aspas duplas.
+\\	Insere uma barra invertida (backslash).
+\a	Chamado de ASC bell ou beep do sistema. Se houver suporte, aciona um bipe.
+\b	Aciona o backspace, ou seja, apaga o caractere anterior.
+\f	Insere uma quebra de página.
+\u	Insere um caractere UNICODE. Deve acompanhar um código com 4 números.
+
+
+ 
